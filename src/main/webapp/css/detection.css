@@ -1,0 +1,35 @@
+.video {
+    margin-left: 130px;
+}
+
+.menu-button{
+    background-color: #cc0000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    margin-left: 90px;
+    width: 250px;
+    align-content: center;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.menu-buttons{
+    align-content: center;
+    margin: 30px 30px 30px 30px;
+    width: 100%;
+}
+.emotion{
+    margin-left: 130px;
+}
+.button{
+    margin-left: 130px;
+}
+.canvas{
+    margin-left: 130px;
+}
+
+
+

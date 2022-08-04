@@ -1,0 +1,58 @@
+[id^=c]{
+    display: none;
+}
+[id^=c] + label{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: 1px solid pink;
+    text-align: center;
+    FONT-WEIGHT: 600;
+}
+
+[id^=c] + label:before{
+    content: '\2713';
+    display: inline-block;
+    color: #cc0000;
+    font-size: 30px;
+    padding-right: 30px;
+    line-height: 30px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+[id^=c]:checked + label:before{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.video-container{
+    display: flex;
+    /*justify-content: space-around;
+
+     */
+    align-items: center;
+}
+.inputs{
+    padding-left: 120px;
+}
+label{
+    /* padding-left: 30px;
+
+     */
+}
+.description{
+    font-size: 20px;
+    margin-left: 130px;
+}
+.reset-button {
+    background-color: #cc0000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    max-width: 144px;
+    display: flex;
+    visibility: hidden;
+}
